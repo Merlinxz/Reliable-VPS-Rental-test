@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VPS Rental Service</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">VPS Rental</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="jumbotron jumbotron-fluid text-center text-white">
+        <div class="container">
+            <h1 class="display-4" data-aos="fade-up">Reliable VPS Rental</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="100">High performance, low cost</p>
+            <a href="#services" class="btn btn-primary btn-lg" data-aos="fade-up" data-aos-delay="200">Learn More</a>
+        </div>
+    </header>
+
+    <section id="services" class="container py-5">
+        <div class="row">
+            <div class="col text-center">
+                <h2 class="mb-4" data-aos="fade-up">Our Services</h2>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Basic VPS -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card service-card mb-4">
+                    <img src="assets/basic-vps.jpg" class="card-img-top" alt="Basic VPS">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Basic VPS</h5>
+                        <p class="card-text">Perfect for small websites, blogs, and<br> review pages.</p>
+                        <ul class="list-unstyled">
+                            <li>1 GB RAM</li>
+                            <li>25 GB Storage</li>
+                            <li>Unlimited Bandwidth</li>
+                            <li>1 CPU Core</li>
+                            <li>Price: $10/month</li>
+                            <li>
+                                <select class="form-control mt-3">
+                                    <option selected>Select OS</option>
+                                    <option>Ubuntu</option>
+                                    <option>CentOS</option>
+                                    <option>Debian</option>
+                                    <option>Windows Server</option>
+                                </select>
+                            </li>
+                        </ul>
+                        <a href="#" id="basic-get-started" class="btn btn-primary mt-3">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Pro VPS -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card service-card mb-4">
+                    <img src="assets/pro-vps.jpg" class="card-img-top" alt="Pro VPS">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Pro VPS</h5>
+                        <p class="card-text">Ideal for medium-sized businesses and<br>e-commerce sites.</p>
+                        <ul class="list-unstyled">
+                            <li>4 GB RAM</li>
+                            <li>100 GB Storage</li>
+                            <li>Unlimited Bandwidth</li>
+                            <li>2 CPU Cores</li>
+                            <li>Price: $20/month</li>
+                            <li>
+                                <select class="form-control mt-3">
+                                    <option selected>Select OS</option>
+                                    <option>Ubuntu</option>
+                                    <option>CentOS</option>
+                                    <option>Debian</option>
+                                    <option>Windows Server</option>
+                                </select>
+                            </li>
+                        </ul>
+                        <a href="#" id="pro-get-started" class="btn btn-primary mt-3">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Enterprise VPS -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="card service-card mb-4">
+                    <img src="assets/enterprise-vps.jpg" class="card-img-top" alt="Enterprise VPS">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Enterprise VPS</h5>
+                        <p class="card-text">Best for large enterprises and<br>high-traffic websites.</p>
+                        <ul class="list-unstyled">
+                            <li>8 GB RAM</li>
+                            <li>250 GB Storage</li>
+                            <li>Unlimited Bandwidth</li>
+                            <li>4 CPU Cores</li>
+                            <li>Price: $40/month</li>
+                            <li>
+                                <select class="form-control mt-3">
+                                    <option selected>Select OS</option>
+                                    <option>Ubuntu</option>
+                                    <option>CentOS</option>
+                                    <option>Debian</option>
+                                    <option>Windows Server</option>
+                                </select>
+                            </li>
+                        </ul>
+                        <a href="#" id="enterprise-get-started" class="btn btn-primary mt-3">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Additional plans -->
+            <!-- Advanced VPS -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="card service-card mb-4">
+                    <img src="assets/advanced-vps.jpg" class="card-img-top" alt="Advanced VPS">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Advanced VPS</h5>
+                        <p class="card-text">Suitable for resource-intensive applications and more.</p>
+                        <ul class="list-unstyled">
+                            <li>16 GB RAM</li>
+                            <li>500 GB Storage</li>
+                            <li>Unlimited Bandwidth</li>
+                            <li>8 CPU Cores</li>
+                            <li>Price: $60/month</li>
+                            <li>
+                                <select class="form-control mt-3">
+                                    <option selected>Select OS</option>
+                                    <option>Ubuntu</option>
+                                    <option>CentOS</option>
+                                    <option>Debian</option>
+                                    <option>Windows Server</option>
+                                </select>
+                            </li>
+                        </ul>
+                        <a href="#" id="advanced-get-started" class="btn btn-primary mt-3">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Premium VPS -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card service-card mb-4">
+                    <img src="assets/premium-vps.jpg" class="card-img-top" alt="Premium VPS">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Premium VPS</h5>
+                        <p class="card-text">High-performance virtual servers for demanding applications.</p>
+                        <ul class="list-unstyled">
+                            <li>32 GB RAM</li>
+                            <li>1 TB Storage</li>
+                            <li>Unlimited Bandwidth</li>
+                            <li>16 CPU Cores</li>
+                            <li>Price: $80/month</li>
+                            <li>
+                                <select class="form-control mt-3">
+                                    <option selected>Select OS</option>
+                                    <option>Ubuntu</option>
+                                    <option>CentOS</option>
+                                    <option>Debian</option>
+                                    <option>Windows Server</option>
+                                </select>
+                            </li>
+                        </ul>
+                        <a href="#" id="premium-get-started" class="btn btn-primary mt-3">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Custom VPS -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="card service-card mb-4">
+                    <img src="assets/custom-vps.jpg" class="card-img-top" alt="Custom VPS">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Custom VPS</h5>
+                        <p class="card-text">Build your VPS with customizable resources for you.</p>
+                        <ul class="list-unstyled">
+                            <li>Customizable RAM</li>
+                            <li>Customizable Storage</li>
+                            <li>Unlimited Bandwidth</li>
+                            <li>Customizable CPU Cores</li>
+                            <li>Price: Starting from $50/month</li>
+                            <li>
+                                <select class="form-control mt-3">
+                                    <option selected>Select OS</option>
+                                    <option>Ubuntu</option>
+                                    <option>CentOS</option>
+                                    <option>Debian</option>
+                                    <option>Windows Server</option>
+                                </select>
+                            </li>
+                        </ul>
+                        <a href="#" id="custom-get-started" class="btn btn-primary mt-3">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 VPS Rental. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
